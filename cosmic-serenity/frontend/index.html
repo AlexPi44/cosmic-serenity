@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cosmic Serenity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Mood Input Section -->
+  <div id="moodInput">
+    <h1>Welcome to Cosmic Serenity</h1>
+    <p>Please describe how you're feeling:</p>
+    <textarea id="userText" placeholder="I feel..."></textarea>
+    <button id="submitMood">Begin Journey</button>
+  </div>
+  
+  <!-- 3D Canvas Container -->
+  <div id="canvasContainer" style="display:none;">
+    <canvas id="threeCanvas"></canvas>
+    <div id="guidanceMessage"></div>
+  </div>
+  
+  <!-- Footer (Donation link removed) -->
+  <footer>
+    <!-- Donation functionality has been removed -->
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="src/config.js"></script>
+  <script src="src/scene.js"></script>
+  <script src="src/stars.js"></script>
+  <script src="src/audio.js"></script>
+  <script src="src/main.js"></script>
+</body>
+</html>

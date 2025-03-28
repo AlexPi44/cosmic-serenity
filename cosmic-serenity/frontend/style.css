@@ -1,0 +1,50 @@
+/* frontend/style.css */
+body {
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#moodInput {
+  text-align: center;
+  padding: 20px;
+}
+
+#moodInput textarea {
+  width: 60%;
+  height: 80px;
+  font-size: 16px;
+}
+
+#canvasContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#threeCanvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#guidanceMessage {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  opacity: 1;
+  transition: opacity 20s ease-out;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
